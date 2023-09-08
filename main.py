@@ -23,7 +23,7 @@ if __name__ == "__main__":
 
     parser.add_argument('--max_tokens', type=int, default=None, help='Change the number of output tokens (default: None)')
     parser.add_argument('--temperature', type=float, default=0, help='Change the temperature number (default: 0)')
-    parser.add_argument('--verbose', type=bool, default=True, help='Makes the Chatbot/Agent verbose (default: False)')
+    parser.add_argument('--verbose', type=bool, default=False, help='Makes the Chatbot/Agent verbose (default: False)')
 
     args = parser.parse_args()
 

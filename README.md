@@ -1,7 +1,7 @@
-# Raiffeisen Chatbot README
+# RaiPay Chatbot README
 
-This README provides instructions on how to use the Raiffeisen Chatbot code. The Raiffeisen Chatbot is a Python program that allows you to interact
-with a chatbot designed to answer questions related to Raiffeisen banking services.
+This README provides instructions on how to use the RaiPay Chatbot code. The RaiPay Chatbot is a Python program that allows you to interact
+with a chatbot designed to answer questions related to the RaiPay APP.
 
 ## Table of Contents
 
@@ -13,7 +13,7 @@ with a chatbot designed to answer questions related to Raiffeisen banking servic
 
 ## 1. Prerequisites <a name="prerequisites"></a>
 
-Before using the Raiffeisen Chatbot, make sure you have the following prerequisites installed on your system:
+Before using the RaiPay Chatbot, make sure you have the following prerequisites installed on your system:
 
 - Python 3.10: The code is written in Python 3, so you need Python installed on your machine. You can download Python
   from [python.org](https://www.python.org/downloads/).
@@ -50,7 +50,7 @@ pip install -r requirements.txt
 
 ## 3. Usage <a name="usage"></a>
 
-To use the Raiffeisen Chatbot, follow these steps:
+To use the RaiPay Chatbot, follow these steps:
 
 1. Ensure you are in the project directory with the virtual environment activated.
 

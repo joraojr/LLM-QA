@@ -1,11 +1,11 @@
 import argparse
 
-from qa.raiffeisenchatbot import RaiffeisenChatbot
+from qa.raipaychatbot import RaiPayChatbot
 
 
 def start_chat(max_tokens, temperature, verbose):
     print("Loading the model...")
-    chatbot = RaiffeisenChatbot(max_tokens, temperature, verbose)
+    chatbot = RaiPayChatbot(max_tokens, temperature, verbose)
     print("Completed.\n")
     print("RaiPay QA bot is ready. How can I help you?")
     print("Type 'exit' to quit.")

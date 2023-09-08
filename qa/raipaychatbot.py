@@ -13,7 +13,7 @@ from .functions.block_card import BlockCardTool
 from .functions.open_account import OpenAccountTool
 
 
-class RaiffeisenChatbot():
+class RaiPayChatbot():
 
     def __init__(self, max_tokens, temperature, verbose):
         # Load environment variables from the .env file

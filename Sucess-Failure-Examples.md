@@ -69,7 +69,7 @@ details:
 
 Once I have this information, I will be able to assist you in blocking your card.
 
-**Ask a question:** Mastercard 4567 08/28 Lost
+**Ask a question:** Mastercard 4567 08/28 Lost\
 **Answer:** I apologize, but I encountered an error while trying to block your card. Please try again later or contact your card issuer directly to
 report the loss and request a card block. They will be able to assist you further in this matter.
 

@@ -8,6 +8,8 @@ with a chatbot designed to answer questions related to the RaiPay APP.
 1. [Prerequisites](#prerequisites)
 2. [Installation](#installation)
 3. [Usage](#usage)
+4. [Examples](#examples)
+
 
 ---
 
@@ -69,5 +71,9 @@ python main.py --max_tokens <max_tokens> --temperature <temperature> --verbose <
 --verbose: (Optional) Makes the Chatbot/Agent verbose. If not specified, it defaults to False.
 
 4. Once the Chatbot is running, you can interact with it by typing questions. To exit the chat, simply type "exit."
+
+## 4. Examples <a name="examples"></a>
+
+ - Examples of success and failure tries are present in [Sucess and Failure examples](Sucess-Failure-Examples.md)
 
 ---

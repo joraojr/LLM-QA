@@ -8,7 +8,7 @@ from pydantic import BaseModel, Field
 
 
 class BlockCardCheckInput(BaseModel):
-    # Check the input for Weather
+    # Check the input for block a card
     brand: str = Field(..., description="The brand of the lost/stolen card.")
     last_4_digits: str = Field(..., description="The last 4 digits of the lost/stolen card")
     expiration_date: str = Field(..., description="The expiration date of the lost/stolen card")
@@ -18,7 +18,7 @@ class BlockCardCheckInput(BaseModel):
 class BlockCardTool(BaseTool):
     name = "block_card"
     description = ("Use this tool when you need to block a card that got lost, stolen, or similar."
-                   "The user need to provide card brand, last 4 digitis, experitation date, and areason.")
+                   "The user need to provide the card brand, last 4 digitis, experitation date, and a reason.")
 
     args_schema: Optional[Type[BaseModel]] = BlockCardCheckInput
 

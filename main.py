@@ -7,7 +7,7 @@ def start_chat(max_tokens, temperature, verbose):
     print("Loading the model...")
     chatbot = RaiPayChatbot(max_tokens, temperature, verbose)
     print("Completed.\n")
-    print("RaiPay QA bot is ready. How can I help you?")
+    print("RaiPay chatbot is ready. How can I help you?")
     print("Type 'exit' to quit.")
 
     while True:
@@ -19,7 +19,7 @@ def start_chat(max_tokens, temperature, verbose):
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="Raiffeisen Chatbot variables")
+    parser = argparse.ArgumentParser(description="RaiPay chatbot variables")
 
     parser.add_argument('--max_tokens', type=int, default=None, help='Change the number of output tokens (default: None)')
     parser.add_argument('--temperature', type=float, default=0, help='Change the temperature number (default: 0)')

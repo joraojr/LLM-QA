@@ -160,3 +160,6 @@ cython_debug/
 .idea/
 
 pdfs/
+
+# Exclude extra files:
+preprocessing_text.py

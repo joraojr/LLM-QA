@@ -8,7 +8,7 @@ from pydantic import BaseModel, Field
 
 
 class OpenAccountCheckInput(BaseModel):
-    # Check the input for Weather
+    # Check the input for open an account
     type_of_account: str = Field(..., description="The type of the account the user wants to be open: Current or Savings.")
     name_of_client: str = Field(..., description="The name of the client")
     address_of_client: str = Field(..., description="The address of the client (street, city, postcode, country)")

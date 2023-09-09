@@ -87,7 +87,7 @@ class RaiPayChatbot():
             max_token_limit=2000
         )
 
-        #### CHATBOT FOR THE 1st task that was updated to be agent and understand functions
+        ## Old chatbot for the 1st task that was updated to be an agent and understand mutiple functions
 
         # Set LLM and memory buffer
         # conversation_chain = ConversationalRetrievalChain.from_llm(

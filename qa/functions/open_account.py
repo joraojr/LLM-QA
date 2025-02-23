@@ -1,7 +1,7 @@
 import random
 from typing import Optional, Type
 
-from langchain.tools import BaseTool
+from langchain_core.tools import BaseTool
 import json
 
 from pydantic import BaseModel, Field
